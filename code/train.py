@@ -13,7 +13,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics import classification_report
 
-from .preprocess import preprocess
+from preprocess import preprocess
 
 mlb = MultiLabelBinarizer()
 
